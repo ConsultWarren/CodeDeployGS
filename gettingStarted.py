@@ -13,7 +13,7 @@ def main():
         me.giveBeer()
         me.giveBeer()
 
-    print('is warren happy: {0}'.format(me.isHappy()))
+    print('is warren happy: {0} with {1} beers'.format(me.isHappy(), me.beer))
 
 
 
