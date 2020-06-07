@@ -1,8 +1,12 @@
 version: 0.2
 phases:
+  install:
+    commands:
+      - python -m pip install pytest
   build:
     commands:
       - echo nothing to do on a python build.  This is your hook to pytest, and linters.
+      - python -m pytest
 cache:
   paths:
     - '/root/.m2/**/*'
