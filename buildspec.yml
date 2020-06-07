@@ -2,7 +2,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo nothing to do on a python build
+      - echo nothing to do on a python build.  This is your hook to pytest, and linters.
 cache:
   paths:
     - '/root/.m2/**/*'
