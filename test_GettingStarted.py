@@ -21,3 +21,7 @@ class TestClass:
         me.giveBeer()
         assert True == me.isHappy()
 
+    def test_id(self):
+        me = bc.baseClass()
+        assert 1 == me.id
+
