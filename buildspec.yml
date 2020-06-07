@@ -1,0 +1,8 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo nothing to do on a python build
+cache:
+  paths:
+    - '/root/.m2/**/*'
