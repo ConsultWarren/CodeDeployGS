@@ -4,4 +4,4 @@ files:
   - source: /
     destination: /var/com/wg
 Hooks:
-  - BeforeInstall: "ignoreApplicationStopFailures"
+  - ApplicationStop: "ignoreApplicationStopFailures"
